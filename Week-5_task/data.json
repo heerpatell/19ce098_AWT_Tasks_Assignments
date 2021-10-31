@@ -1,0 +1,47 @@
+[
+    {
+        "product_id":1,
+        "product_name":"Ice-cream",
+        "product_type":"eatable",
+        "product_image":"🍦",
+        "product_quantity":5,
+        "product_cost":"100 per head",
+        "description":"Fresh ice cream made with premimum quality fruits."
+    },
+    {
+        "product_id":2,
+        "product_name":"rice",
+        "product_type":"eatable",
+        "product_image":"🌾",
+        "product_quantity":"5 kg",
+        "product_cost":"500 per kg",
+        "description":"Rice is from north eastern part of india"
+    },
+    {
+        "product_id":3,
+        "product_name":"cup cake",
+        "product_type":"eatable",
+        "product_image":"🧁",
+        "product_quantity":40,
+        "product_cost":"50 per item",
+        "description":"cup cakes are available in different 4 flavoures"
+    },
+    {
+        "product_id":4,
+        "product_name":"sushi",
+        "product_type":"eatable",
+        "product_image":"🍣",
+        "product_quantity":30,
+        "product_cost":"80 per item",
+        "description":"Sushi is one of the famous dishes"
+    },
+    {
+        "product_id":5,
+        "product_name":"salt",
+        "product_type":"eatable",
+        "product_image":"🧂",
+        "product_quantity":"7 kg",
+        "product_cost":"20 per kg",
+        "description":"salt is from western part of india"
+    }
+]

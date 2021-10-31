@@ -1,0 +1,27 @@
+<style>
+    .No-discount{
+    display:none;
+    }
+    .box:hover{
+        transition:scaleX(0.4);
+    }
+    </style>
+    
+   <a href="/product?id={%ID%}" style="text-decoration:none ; color:black">
+    <div class="row g-0 box" style="background-image: radial-gradient(circle, yellow, pink,rgb(238, 184, 238));box-shadow: 10px 10px;">
+    <div class="col-md-5 " style="background-image: url('https://source.unsplash.com/1600x900/?{%PRODUCTNAME%},{%PRODUCTTYPE%}');background-size: cover">
+    </div>
+    <div class="col-md-7">
+    <div class="card-body">
+    <h5 class="card-title">{%PRODUCTNAME%}</h5>
+    <p>{%PRODUCTTYPE%}</p>
+    <p class="card-text text-truncate">{%DESCRIPTION%}</p>
+    <p class="card-text">COST : {%PRODUCTCOST%}</small></p>
+    <li class="card-text {%NODISCOUNT%}">20% DISCOUNT </small></p>
+    <b>👉Detail</b>
+    
+    </div>
+    </div>
+    </div>
+   </a>
+   
